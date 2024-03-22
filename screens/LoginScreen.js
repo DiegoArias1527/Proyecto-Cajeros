@@ -12,6 +12,7 @@ const LoginScreen = () => {
             />
             <TextInput style={styles.textInput}
                 placeholder="Contraseña"
+                secureTextEntry={true}
             />
             <Button />
             <Text style={styles.text}>¿No tienes una cuenta? Registrate</Text>
